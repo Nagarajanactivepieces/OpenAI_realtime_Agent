@@ -18,9 +18,6 @@ export const config = {
   patientApi: {
     url: process.env.PATIENT_API_URL || '',
   },
-  ngrok: {
-    authToken: process.env.NGROK_AUTH_TOKEN || '',
-  },
 };
 
 // Validate required environment variables
